@@ -19,7 +19,7 @@ public class TestGrid {
 	@Test
 	public void test(){
 		
-		
+		fail("not implemented");
 	}
 
 }
