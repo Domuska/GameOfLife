@@ -33,7 +33,7 @@ public class Grid {
 			}
 		}
 		
-		return numberOfNeighbors;
+		return numberOfNeighbors-1;
 	}
 	
 }
