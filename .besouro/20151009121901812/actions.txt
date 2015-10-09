@@ -149,3 +149,16 @@ RefactoringAction 1444386341572 TestCell.java RENAME testDeadCellWithThreeNeighb
 RefactoringAction 1444386345088 TestCell.java RENAME testDeadCellWithThreeNeighborsShouldB=>void testDeadCellWithThreeNeighborsShouldBecomeAlive FIELD
 RefactoringAction 1444386346104 TestCell.java RENAME testDeadCellWithThreeNeighborsShouldBecomeAlive=>void testDeadCellWithThreeNeighborsShouldBecomeAlive() METHOD
 EditAction 1444386391212 TestCell.java 906 4 12 4
+UnitTestCaseAction 1444386397559 TestCell.java OK
+UnitTestSessionAction 1444386397560 TestCell OK
+RefactoringAction 1444386423168 Cell.java REMOVE getY() METHOD
+RefactoringAction 1444386423170 Cell.java REMOVE getState() METHOD
+RefactoringAction 1444386423171 Cell.java REMOVE hashCode() METHOD
+RefactoringAction 1444386423172 Cell.java REMOVE equals(Object) METHOD
+RefactoringAction 1444386423173 Cell.java REMOVE getX() METHOD
+RefactoringAction 1444386425701 Cell.java ADD String getState() METHOD
+RefactoringAction 1444386425702 Cell.java ADD int getX() METHOD
+RefactoringAction 1444386425713 Cell.java ADD int getY() METHOD
+RefactoringAction 1444386425714 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444386425716 Cell.java ADD boolean equals(Object) METHOD
+EditAction 1444386438848 Cell.java 1088 8 19 0

@@ -28,9 +28,9 @@ public class Cell {
 			
 			liveliness = "Dead";
 		}
-		else{
+		/*else{
 			liveliness = "Alive";
-		}
+		}*/
 			
 	}
 
