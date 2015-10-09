@@ -110,3 +110,6 @@ EditAction 1444385547083 Grid.java 599 3 5 0
 UnitTestCaseAction 1444385559369 TestGrid.java OK
 UnitTestSessionAction 1444385559370 TestGrid.testSingleCellOnGridNoNeighbors OK
 EditAction 1444385674865 Grid.java 601 3 5 0
+UnitTestCaseAction 1444385679764 TestGrid.java FAIL
+UnitTestSessionAction 1444385679765 TestGrid FAIL
+EditAction 1444385713497 Grid.java 599 3 5 0
