@@ -119,3 +119,12 @@ EditAction 1444385800011 TestGrid.java 770 2 11 3
 UnitTestCaseAction 1444385805229 TestGrid.java FAIL
 UnitTestSessionAction 1444385805230 TestGrid FAIL
 EditAction 1444385923324 TestGrid.java 772 2 10 2
+UnitTestCaseAction 1444385931163 TestGrid.java FAIL
+UnitTestSessionAction 1444385931164 TestGrid FAIL
+RefactoringAction 1444385981883 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444385981884 Cell.java ADD boolean equals(Object) METHOD
+RefactoringAction 1444385994419 Cell.java REMOVE hashCode() METHOD
+RefactoringAction 1444385994420 Cell.java REMOVE equals(Object) METHOD
+RefactoringAction 1444385997947 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444385997948 Cell.java ADD boolean equals(Object) METHOD
+EditAction 1444386009447 Cell.java 1016 8 19 0
