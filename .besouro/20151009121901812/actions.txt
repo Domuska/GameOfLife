@@ -28,3 +28,18 @@ CompilationAction 1444382792180 TestCell.java
 RefactoringAction 1444382818981 TestCell.java RENAME testLiveCellWithNeighborsShouldLive()=>void testLiveCellWithTwoNeighborsShouldLive() METHOD
 CompilationAction 1444382821869 TestCell.java
 EditAction 1444382940054 Cell.java 399 3 3 0
+UnitTestCaseAction 1444382944629 TestCell.java OK
+UnitTestSessionAction 1444382944630 TestCell OK
+FileOpenedAction 1444383043436 TestGrid.java 199 1 1 0
+RefactoringAction 1444383065609 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444383073547 TestGrid.java RENAME test()=><initializer /1> null
+RefactoringAction 1444383076057 TestGrid.java RENAME <initializer /1>=>void single() METHOD
+RefactoringAction 1444383079568 TestGrid.java RENAME single()=><initializer /1> null
+RefactoringAction 1444383088079 TestGrid.java RENAME <initializer /1>=>void test() METHOD
+RefactoringAction 1444383102193 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+FileOpenedAction 1444383357434 Grid.java 68 0 0 0
+RefactoringAction 1444383363431 Grid.java ADD Grid() METHOD
+RefactoringAction 1444383372940 Grid.java RENAME Grid()=>Grid(int) METHOD
+RefactoringAction 1444383381167 Grid.java ADD void addCell(int, int) METHOD
+RefactoringAction 1444383386620 Grid.java ADD Object getCellsNeighbors(int, int) METHOD
+EditAction 1444383389556 Grid.java 289 3 1 0
