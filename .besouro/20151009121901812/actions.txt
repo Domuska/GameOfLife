@@ -54,3 +54,12 @@ CompilationAction 1444383448466 TestGrid.java
 RefactoringAction 1444383470431 Cell.java RENAME Cell(String, int, int)=>Cell(String) METHOD
 RefactoringAction 1444383477953 Cell.java ADD Cell(int, int) METHOD
 EditAction 1444383483718 Cell.java 438 4 3 0
+CompilationAction 1444383488844 TestGrid.java
+CompilationAction 1444383494600 TestGrid.java
+UnitTestCaseAction 1444383498908 TestGrid.java FAIL
+UnitTestSessionAction 1444383498914 TestGrid FAIL
+RefactoringAction 1444383508109 TestGrid.java RENAME test()=>void testSingle() METHOD
+RefactoringAction 1444383513624 TestGrid.java RENAME testSingle()=>void testSingleCellOnGridNoNeighbors() METHOD
+RefactoringAction 1444383525870 TestGrid.java ADD void tes() METHOD
+RefactoringAction 1444383529410 TestGrid.java RENAME tes()=>void test() METHOD
+EditAction 1444383562445 TestGrid.java 460 2 4 1
