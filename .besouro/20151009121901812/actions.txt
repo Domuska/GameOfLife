@@ -141,3 +141,11 @@ UnitTestSessionAction 1444386213090 TestCell FAIL
 UnitTestCaseAction 1444386240043 TestCell.java FAIL
 UnitTestSessionAction 1444386240044 TestCell FAIL
 EditAction 1444386299744 Cell.java 1084 8 19 0
+UnitTestCaseAction 1444386306942 TestCell.java OK
+UnitTestSessionAction 1444386306943 TestCell OK
+RefactoringAction 1444386331039 TestCell.java ADD void testDeadCellWith FIELD
+RefactoringAction 1444386338056 TestCell.java RENAME testDeadCellWith=>void testDeadCellWithThreeNeighborsShould FIELD
+RefactoringAction 1444386341572 TestCell.java RENAME testDeadCellWithThreeNeighborsShould=>void testDeadCellWithThreeNeighborsShouldB FIELD
+RefactoringAction 1444386345088 TestCell.java RENAME testDeadCellWithThreeNeighborsShouldB=>void testDeadCellWithThreeNeighborsShouldBecomeAlive FIELD
+RefactoringAction 1444386346104 TestCell.java RENAME testDeadCellWithThreeNeighborsShouldBecomeAlive=>void testDeadCellWithThreeNeighborsShouldBecomeAlive() METHOD
+EditAction 1444386391212 TestCell.java 906 4 12 4
