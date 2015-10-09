@@ -4,8 +4,13 @@ public class Cell {
 
 	String liveliness;
 	
-	public Cell(String liveliness, int x, int y){		
+	public Cell(String liveliness){		
 		this.liveliness = liveliness;
+	}
+	
+	public Cell(int x, int y){
+		
+		
 	}
 
 	public void nextIteration(int liveNeighbors) {
