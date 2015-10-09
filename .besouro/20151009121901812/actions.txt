@@ -172,3 +172,6 @@ FileOpenedAction 1444386601761 Grid.java 599 3 5 0
 UnitTestCaseAction 1444386614087 TestGrid.java FAIL
 UnitTestSessionAction 1444386614089 TestGrid FAIL
 EditAction 1444386942607 Grid.java 672 3 5 0
+UnitTestCaseAction 1444386953681 TestGrid.java FAIL
+UnitTestSessionAction 1444386953681 TestGrid FAIL
+EditAction 1444387032731 Grid.java 674 3 5 0
