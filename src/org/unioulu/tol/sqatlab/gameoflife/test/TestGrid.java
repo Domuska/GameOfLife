@@ -30,6 +30,23 @@ public class TestGrid {
 		//assertEquals(1, grid.getNumberOfCellsNeighbors(cellTwo));
 	}
 	
-	
+	@Test
+	public void testFourCellsOnGridWithThreeNeighborsAll(){
+		
+		Cell cellOne = new Cell(0,0);
+		Cell cellTwo = new Cell(0,1);
+		Cell cellThree = new Cell(1,0);
+		Cell cellFour = new Cell(1,1);
+		
+		Grid grid = new Grid(2);
+		
+		grid.addCell(cellOne);
+		grid.addCell(cellTwo);
+		grid.addCell(cellThree);
+		grid.addCell(cellFour);
+		
+		assertEquals(3, grid.getNumberOfCellsNeighbors(cellThree));
+		
+	}
 
 }
