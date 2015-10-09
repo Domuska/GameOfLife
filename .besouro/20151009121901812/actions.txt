@@ -14,3 +14,7 @@ RefactoringAction 1444382441076 TestCell.java RENAME testLiveCellWith=>void test
 RefactoringAction 1444382442589 TestCell.java RENAME testLiveCellWithNeighborsShould=>void testLiveCellWithNeighborsShouldLive() METHOD
 EditAction 1444382505733 TestCell.java 500 2 5 1
 EditAction 1444382538189 TestCell.java 542 2 6 2
+UnitTestCaseAction 1444382544209 TestCell.java FAIL
+UnitTestSessionAction 1444382544210 TestCell FAIL
+RefactoringAction 1444382557569 Cell.java ADD String liveliness FIELD
+EditAction 1444382583596 Cell.java 257 3 2 0

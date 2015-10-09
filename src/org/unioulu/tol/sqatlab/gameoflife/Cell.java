@@ -2,8 +2,10 @@ package org.unioulu.tol.sqatlab.gameoflife;
 
 public class Cell {
 
+	String liveliness;
+	
 	public Cell(String liveliness){		
-		
+		this.liveliness = liveliness;
 	}
 
 	public void nextIteration() {
@@ -13,6 +15,6 @@ public class Cell {
 
 	public String getState() {
 		
-		return "Dead";
+		return liveliness;
 	}
 }
