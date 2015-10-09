@@ -5,6 +5,11 @@ public class Cell {
 	String liveliness;
 	private int x, y;
 	
+	public Cell(String liveliness, int x, int y){
+		this.liveliness = liveliness;
+		this.x = x;
+		this.y = y;
+	}
 	
 	public Cell(String liveliness){		
 		this.liveliness = liveliness;

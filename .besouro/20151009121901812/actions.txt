@@ -204,3 +204,5 @@ EditAction 1444387823495 TestGrid.java 1498 4 30 4
 RefactoringAction 1444387848959 Cell.java ADD Cell(String)/2 METHOD
 RefactoringAction 1444387851980 Cell.java RENAME Cell(String)/2=>Cell(String, int, int) METHOD
 EditAction 1444387885740 TestCell.java 932 4 12 4
+CompilationAction 1444387892571 TestCell.java
+EditAction 1444387898531 Cell.java 1322 9 22 0
