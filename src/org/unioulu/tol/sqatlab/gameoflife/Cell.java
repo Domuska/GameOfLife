@@ -13,6 +13,6 @@ public class Cell {
 
 	public String getState() {
 		
-		return null;
+		return "Dead";
 	}
 }

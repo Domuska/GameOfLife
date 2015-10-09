@@ -3,3 +3,6 @@ EditAction 1444382355934 Cell.java 270 3 1 0
 UnitTestCaseAction 1444382372321 TestCell.java OK
 UnitTestSessionAction 1444382372329 TestCell OK
 EditAction 1444382386616 Cell.java 200 3 1 0
+UnitTestCaseAction 1444382394257 TestCell.java FAIL
+UnitTestSessionAction 1444382394258 TestCell FAIL
+EditAction 1444382401034 Cell.java 202 3 1 0
