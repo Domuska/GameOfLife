@@ -11,7 +11,7 @@ public class TestCell {
 	public void testLiveCellWithNoNeighborsShouldDie() {
 		
 		//arrange
-		Cell cell = new Cell("Alive");
+		Cell cell = new Cell("Alive", 0,0);
 		
 		cell.nextIteration(0);
 		
@@ -22,7 +22,7 @@ public class TestCell {
 	@Test
 	public void testLiveCellWithTwoNeighborsShouldLive(){
 		
-		Cell cell = new Cell("Alive");
+		Cell cell = new Cell("Alive", 0,0);
 		
 		cell.nextIteration(2);
 		
@@ -32,7 +32,7 @@ public class TestCell {
 	@Test
 	public void testLiveCellWithFourNeighborsShouldDie(){
 		
-		Cell cell = new Cell("Alive");
+		Cell cell = new Cell("Alive", 0,0);
 		
 		cell.nextIteration(4);
 		
@@ -45,7 +45,7 @@ public class TestCell {
 	@Test
 	public void testDeadCellWithThreeNeighborsShouldBecomeAlive(){
 		
-		Cell cell = new Cell("Dead");
+		Cell cell = new Cell("Dead", 0,0);
 		
 		cell.nextIteration(3);
 		

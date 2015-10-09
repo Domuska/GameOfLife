@@ -201,3 +201,6 @@ RefactoringAction 1444387770444 TestGrid.java RENAME testUpdating=>void testUpda
 RefactoringAction 1444387771964 TestGrid.java RENAME testUpdatingAll=>void testUpdatingAllCells FIELD
 RefactoringAction 1444387777484 TestGrid.java RENAME testUpdatingAllCells=>void testUpdatingAllCells() METHOD
 EditAction 1444387823495 TestGrid.java 1498 4 30 4
+RefactoringAction 1444387848959 Cell.java ADD Cell(String)/2 METHOD
+RefactoringAction 1444387851980 Cell.java RENAME Cell(String)/2=>Cell(String, int, int) METHOD
+EditAction 1444387885740 TestCell.java 932 4 12 4
