@@ -50,9 +50,9 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void testUpdatingAllCells(){
+	public void testUpdatingGridOneCellAliveShouldDie(){
 		
-		Cell cellOne = new Cell("Dead",0,0);
+		Cell cellOne = new Cell("Alive",0,0);
 		Cell cellTwo = new Cell("Dead",0,1);
 		Cell cellThree = new Cell("Dead",1,0);
 		Cell cellFour = new Cell("Dead",1,1);
@@ -64,7 +64,13 @@ public class TestGrid {
 		grid.addCell(cellThree);
 		grid.addCell(cellFour);
 		
+		grid.tick();
+		
+		assertEquals("Dead", cellOne.getLiveliness());
 		
 	}
+	
+	
+	
 
 }
