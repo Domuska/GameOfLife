@@ -14,7 +14,7 @@ public class Grid {
 
 	public Object getCellsNeighbors(int i, int j) {
 		// TODO Auto-generated method stub
-		return null;
+		return 0; 
 	}
 	
 }
