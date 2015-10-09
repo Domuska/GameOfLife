@@ -128,3 +128,8 @@ RefactoringAction 1444385994420 Cell.java REMOVE equals(Object) METHOD
 RefactoringAction 1444385997947 Cell.java ADD int hashCode() METHOD
 RefactoringAction 1444385997948 Cell.java ADD boolean equals(Object) METHOD
 EditAction 1444386009447 Cell.java 1016 8 19 0
+RefactoringAction 1444386064398 TestCell.java ADD void test FIELD
+RefactoringAction 1444386082414 TestCell.java RENAME test=>void testLiveCellWithThreeNeighbor FIELD
+RefactoringAction 1444386083429 TestCell.java RENAME testLiveCellWithThreeNeighbor=>void testLiveCellWithThreeNeighbors FIELD
+RefactoringAction 1444386091444 TestCell.java RENAME testLiveCellWithThreeNeighbors=>void testLiveCellWithFourNeighborsShouldDie() METHOD
+EditAction 1444386122500 TestCell.java 722 3 9 3
