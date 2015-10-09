@@ -17,7 +17,7 @@ public class Grid {
 		cells.add(cell);
 	}
 
-	public Object getNumberOfCellsNeighbors(Cell cell) {
+	public int getNumberOfCellsNeighbors(Cell cell) {
 		
 		Set<Cell> neighbors = new HashSet<Cell>();
 		
@@ -33,7 +33,7 @@ public class Grid {
 			}
 		}
 		
-		return 0; 
+		return numberOfNeighbors;
 	}
 	
 }

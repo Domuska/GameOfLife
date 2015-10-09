@@ -104,3 +104,6 @@ RefactoringAction 1444385479890 Grid.java RENAME getNumber(Cell)=>Object getCell
 EditAction 1444385481005 TestGrid.java 766 2 11 3
 CompilationAction 1444385486894 TestGrid.java
 EditAction 1444385516178 Grid.java 587 3 5 0
+UnitTestCaseAction 1444385532985 TestGrid.java OK
+UnitTestSessionAction 1444385532986 TestGrid.testSingleCellOnGridNoNeighbors OK
+EditAction 1444385547083 Grid.java 599 3 5 0
