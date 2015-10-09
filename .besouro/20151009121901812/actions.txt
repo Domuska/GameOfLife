@@ -133,3 +133,6 @@ RefactoringAction 1444386082414 TestCell.java RENAME test=>void testLiveCellWith
 RefactoringAction 1444386083429 TestCell.java RENAME testLiveCellWithThreeNeighbor=>void testLiveCellWithThreeNeighbors FIELD
 RefactoringAction 1444386091444 TestCell.java RENAME testLiveCellWithThreeNeighbors=>void testLiveCellWithFourNeighborsShouldDie() METHOD
 EditAction 1444386122500 TestCell.java 722 3 9 3
+UnitTestCaseAction 1444386127630 TestCell.java FAIL
+UnitTestSessionAction 1444386127631 TestCell FAIL
+EditAction 1444386205932 Cell.java 1076 8 20 0

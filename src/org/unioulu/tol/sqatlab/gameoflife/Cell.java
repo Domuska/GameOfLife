@@ -18,6 +18,11 @@ public class Cell {
 
 	public void nextIteration(int liveNeighbors) {
 		
+		if(liveNeighbors > 3){
+			
+			liveliness = "Dead";
+		}
+		
 		if(liveNeighbors < 2 && liveliness.equals("Alive")){
 			
 			liveliness = "Dead";
