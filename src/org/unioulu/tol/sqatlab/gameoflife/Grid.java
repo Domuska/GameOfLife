@@ -42,7 +42,10 @@ public class Grid {
 
 	public void tick() {
 		
-		
+		for(int i = 0; i < cells.size(); i++){
+			
+			//TO BE IMPLEMENTED
+		}
 		
 	}
 	
