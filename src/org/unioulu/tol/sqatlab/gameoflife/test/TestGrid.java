@@ -10,7 +10,7 @@ public class TestGrid {
 	@Test
 	public void testSingleCellOnGridNoNeighbors() {
 		Grid grid = new Grid(1);
-		Cell cell = new Cell(0, 0);
+		Cell cell = new Cell("Dead",0, 0);
 		grid.addCell(cell);
 		
 		assertEquals(0, grid.getNumberOfCellsNeighbors(cell));
@@ -19,8 +19,8 @@ public class TestGrid {
 	@Test
 	public void testTwoCellsOnGridWithOneNeighborBoth(){
 		
-		Cell cellOne = new Cell(0,0);
-		Cell cellTwo = new Cell(0,1);
+		Cell cellOne = new Cell("Dead",0,0);
+		Cell cellTwo = new Cell("Dead",0,1);
 		Grid grid = new Grid(2);
 		
 		grid.addCell(cellOne);
@@ -33,10 +33,10 @@ public class TestGrid {
 	@Test
 	public void testFourCellsOnGridWithThreeNeighborsAll(){
 		
-		Cell cellOne = new Cell(0,0);
-		Cell cellTwo = new Cell(0,1);
-		Cell cellThree = new Cell(1,0);
-		Cell cellFour = new Cell(1,1);
+		Cell cellOne = new Cell("Dead",0,0);
+		Cell cellTwo = new Cell("Dead",0,1);
+		Cell cellThree = new Cell("Dead",1,0);
+		Cell cellFour = new Cell("Dead",1,1);
 		
 		Grid grid = new Grid(2);
 		
@@ -52,10 +52,10 @@ public class TestGrid {
 	@Test
 	public void testUpdatingAllCells(){
 		
-		Cell cellOne = new Cell(0,0);
-		Cell cellTwo = new Cell(0,1);
-		Cell cellThree = new Cell(1,0);
-		Cell cellFour = new Cell(1,1);
+		Cell cellOne = new Cell("Dead",0,0);
+		Cell cellTwo = new Cell("Dead",0,1);
+		Cell cellThree = new Cell("Dead",1,0);
+		Cell cellFour = new Cell("Dead",1,1);
 		
 		Grid grid = new Grid(2);
 		
