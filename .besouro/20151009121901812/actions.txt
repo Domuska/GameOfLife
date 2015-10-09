@@ -192,3 +192,12 @@ UnitTestSessionAction 1444387188295 TestGrid OK
 EditAction 1444387191808 TestGrid.java 1177 3 21 4
 EditAction 1444387290729 TestCell.java 912 4 12 4
 EditAction 1444387343707 Cell.java 1212 8 19 0
+UnitTestCaseAction 1444387351318 TestCell.java OK
+UnitTestSessionAction 1444387351319 TestCell OK
+FileOpenedAction 1444387584985 GameOfLife.java 74 0 0 0
+RefactoringAction 1444387763904 TestGrid.java ADD void test FIELD
+RefactoringAction 1444387767924 TestGrid.java RENAME test=>void testUpdating FIELD
+RefactoringAction 1444387770444 TestGrid.java RENAME testUpdating=>void testUpdatingAll FIELD
+RefactoringAction 1444387771964 TestGrid.java RENAME testUpdatingAll=>void testUpdatingAllCells FIELD
+RefactoringAction 1444387777484 TestGrid.java RENAME testUpdatingAllCells=>void testUpdatingAllCells() METHOD
+EditAction 1444387823495 TestGrid.java 1498 4 30 4

@@ -19,7 +19,7 @@ public class Grid {
 
 	public int getNumberOfCellsNeighbors(Cell cell) {
 		
-		Set<Cell> neighbors = new HashSet<Cell>();
+		//Set<Cell> neighbors = new HashSet<Cell>();
 		
 		int numberOfNeighbors = 0;
 		
@@ -34,13 +34,12 @@ public class Grid {
 					numberOfNeighbors ++;
 				}
 			}
-			
-			
+				
 		}
-		
-		
 		
 		return numberOfNeighbors-1;
 	}
+	
+	
 	
 }
