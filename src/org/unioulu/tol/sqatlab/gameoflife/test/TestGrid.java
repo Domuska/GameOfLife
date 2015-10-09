@@ -48,5 +48,7 @@ public class TestGrid {
 		assertEquals(3, grid.getNumberOfCellsNeighbors(cellThree));
 		
 	}
+	
+	
 
 }
