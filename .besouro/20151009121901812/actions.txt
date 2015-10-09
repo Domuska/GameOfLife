@@ -24,3 +24,7 @@ EditAction 1444382770837 TestCell.java 543 2 6 2
 CompilationAction 1444382774420 TestCell.java
 RefactoringAction 1444382781393 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
 EditAction 1444382788869 Cell.java 274 3 2 0
+CompilationAction 1444382792180 TestCell.java
+RefactoringAction 1444382818981 TestCell.java RENAME testLiveCellWithNeighborsShouldLive()=>void testLiveCellWithTwoNeighborsShouldLive() METHOD
+CompilationAction 1444382821869 TestCell.java
+EditAction 1444382940054 Cell.java 399 3 3 0

@@ -10,7 +10,14 @@ public class Cell {
 
 	public void nextIteration(int liveNeighbors) {
 		
-		
+		if(liveNeighbors < 2 && liveliness.equals("Alive")){
+			
+			liveliness = "Dead";
+		}
+		else{
+			liveliness = "Alive";
+		}
+			
 	}
 
 	public String getState() {
