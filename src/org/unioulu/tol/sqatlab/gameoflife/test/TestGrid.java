@@ -17,9 +17,17 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void test(){
+	public void testTwoCellsOnGridWithOneNeighborBoth(){
 		
-		fail("not implemented");
+		Cell cellOne = new Cell(0,0);
+		Cell cellTwo = new Cell(0,1);
+		Grid grid = new Grid(2);
+		
+		grid.addCell(cellOne);
+		grid.addCell(cellTwo);
+		
+		assertEquals(1, grid.getCellsNeighbors(0, 0));
+		assertEquals(1, grid.getCellsNeighbors(0, 1));
 	}
 
 }
