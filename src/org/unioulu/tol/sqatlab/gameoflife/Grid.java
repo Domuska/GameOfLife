@@ -39,6 +39,12 @@ public class Grid {
 		
 		return numberOfNeighbors-1;
 	}
+
+	public void tick() {
+		
+		
+		
+	}
 	
 	
 	
