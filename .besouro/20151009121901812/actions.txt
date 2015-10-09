@@ -102,3 +102,5 @@ RefactoringAction 1444385471253 Grid.java RENAME getCellsNeighbors(Cell)=>Object
 RefactoringAction 1444385473771 Grid.java RENAME getNumberCellsNeighbors(Cell)=>Object getNumber(Cell) METHOD
 RefactoringAction 1444385479890 Grid.java RENAME getNumber(Cell)=>Object getCellsNeighbors(Cell) METHOD
 EditAction 1444385481005 TestGrid.java 766 2 11 3
+CompilationAction 1444385486894 TestGrid.java
+EditAction 1444385516178 Grid.java 587 3 5 0
