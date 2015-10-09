@@ -26,8 +26,8 @@ public class TestGrid {
 		grid.addCell(cellOne);
 		grid.addCell(cellTwo);
 		
-		assertEquals(1, grid.getCellsNeighbors(0, 0));
-		assertEquals(1, grid.getCellsNeighbors(0, 1));
+		assertEquals(1, grid.getCellsNeighbors(cellOne));
+		assertEquals(1, grid.getCellsNeighbors(cellTwo));
 	}
 
 }

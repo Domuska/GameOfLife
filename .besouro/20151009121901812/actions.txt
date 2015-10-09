@@ -85,3 +85,7 @@ RefactoringAction 1444384675617 Cell.java ADD int y FIELD
 RefactoringAction 1444384683922 Cell.java ADD int hashCode() METHOD
 RefactoringAction 1444384683923 Cell.java ADD boolean equals(Object) METHOD
 EditAction 1444384725998 Cell.java 912 6 15 0
+UnitTestCaseAction 1444384745447 TestGrid.java FAIL
+UnitTestSessionAction 1444384745449 TestGrid FAIL
+RefactoringAction 1444384799961 Grid.java RENAME getCellsNeighbors(int, int)=>Object getCellsNeighbors(Cell) METHOD
+EditAction 1444384811493 TestGrid.java 741 2 11 3
