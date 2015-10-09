@@ -98,3 +98,7 @@ UnitTestSessionAction 1444384837751 TestGrid FAIL
 RefactoringAction 1444384949571 Cell.java ADD void getX() METHOD
 RefactoringAction 1444384963659 Cell.java ADD int getY() METHOD
 EditAction 1444385024466 Cell.java 1016 8 19 0
+RefactoringAction 1444385471253 Grid.java RENAME getCellsNeighbors(Cell)=>Object getNumberCellsNeighbors(Cell) METHOD
+RefactoringAction 1444385473771 Grid.java RENAME getNumberCellsNeighbors(Cell)=>Object getNumber(Cell) METHOD
+RefactoringAction 1444385479890 Grid.java RENAME getNumber(Cell)=>Object getCellsNeighbors(Cell) METHOD
+EditAction 1444385481005 TestGrid.java 766 2 11 3
