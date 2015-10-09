@@ -47,7 +47,7 @@ public class Cell {
 			
 	}
 
-	public String getState() {
+	public String getLiveliness() {
 		
 		return liveliness;
 	}

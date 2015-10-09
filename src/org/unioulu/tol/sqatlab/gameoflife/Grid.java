@@ -27,7 +27,7 @@ public class Grid {
 			
 			for(int dy = -1; dy <= 1; dy++){
 				
-				Cell neighbor = new Cell(cell.getX()+dx, cell.getY() +dy);
+				Cell neighbor = new Cell("Alive", cell.getX()+dx, cell.getY() +dy);
 				
 				if(cells.contains(neighbor)){
 					

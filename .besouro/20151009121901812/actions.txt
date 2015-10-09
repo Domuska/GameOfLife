@@ -213,3 +213,9 @@ UnitTestSessionAction 1444388013701 TestGrid OK
 RefactoringAction 1444388030630 Cell.java RENAME <initializer /1>=>Cell(String) METHOD
 RefactoringAction 1444388034670 Cell.java RENAME <initializer /1>=>void nextIteration(int) METHOD
 EditAction 1444388061182 Cell.java 1326 7 19 0
+CompilationAction 1444388068122 Grid.java
+CompilationAction 1444388098235 Grid.java
+RefactoringAction 1444388209104 TestGrid.java RENAME testUpdatingAllCells()=>void testUpdatingAllCel() METHOD
+RefactoringAction 1444388210126 TestGrid.java RENAME testUpdatingAllCel()=>void testUpdatingAllCe() METHOD
+RefactoringAction 1444388219148 TestGrid.java RENAME testUpdatingAllCe()=>void testUpdatingGridOneCellAliveShouldDie() METHOD
+EditAction 1444388266907 Cell.java 1331 7 19 0

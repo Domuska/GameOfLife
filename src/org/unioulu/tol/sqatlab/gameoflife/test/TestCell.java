@@ -15,7 +15,7 @@ public class TestCell {
 		
 		cell.nextIteration(0);
 		
-		assertEquals("Dead", cell.getState());
+		assertEquals("Dead", cell.getLiveliness());
 	}
 	
 	
@@ -26,7 +26,7 @@ public class TestCell {
 		
 		cell.nextIteration(2);
 		
-		assertEquals("Alive", cell.getState());
+		assertEquals("Alive", cell.getLiveliness());
 	}
 	
 	@Test
@@ -36,7 +36,7 @@ public class TestCell {
 		
 		cell.nextIteration(4);
 		
-		assertEquals("Dead", cell.getState());
+		assertEquals("Dead", cell.getLiveliness());
 	}
 	
 	
@@ -49,7 +49,7 @@ public class TestCell {
 		
 		cell.nextIteration(3);
 		
-		assertEquals("Alive", cell.getState());
+		assertEquals("Alive", cell.getLiveliness());
 	}
 
 }
