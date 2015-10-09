@@ -20,7 +20,7 @@ public class Cell {
 		
 		if(liveliness.equals("Alive")){
 		
-			if(liveNeighbors < 2 ){
+			if(liveNeighbors <= 1 ){
 				
 				liveliness = "Dead";
 			}
