@@ -4,7 +4,7 @@ public class Cell {
 
 	String liveliness;
 	
-	public Cell(String liveliness){		
+	public Cell(String liveliness, int x, int y){		
 		this.liveliness = liveliness;
 	}
 
