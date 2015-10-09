@@ -162,3 +162,6 @@ RefactoringAction 1444386425713 Cell.java ADD int getY() METHOD
 RefactoringAction 1444386425714 Cell.java ADD int hashCode() METHOD
 RefactoringAction 1444386425716 Cell.java ADD boolean equals(Object) METHOD
 EditAction 1444386438848 Cell.java 1088 8 19 0
+UnitTestCaseAction 1444386446820 TestCell.java FAIL
+UnitTestSessionAction 1444386446821 TestCell FAIL
+EditAction 1444386540138 Cell.java 1211 8 19 0
