@@ -17,7 +17,7 @@ public class Grid {
 		cells.add(cell);
 	}
 
-	public Object getCellsNeighbors(int i, int j) {
+	public Object getCellsNeighbors(Cell cell) {
 		
 		
 		
