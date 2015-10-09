@@ -6,3 +6,10 @@ EditAction 1444382386616 Cell.java 200 3 1 0
 UnitTestCaseAction 1444382394257 TestCell.java FAIL
 UnitTestSessionAction 1444382394258 TestCell FAIL
 EditAction 1444382401034 Cell.java 202 3 1 0
+UnitTestCaseAction 1444382406255 TestCell.java OK
+UnitTestSessionAction 1444382406256 TestCell OK
+RefactoringAction 1444382422544 TestCell.java ADD void test FIELD
+RefactoringAction 1444382430060 TestCell.java RENAME test=>void testLiveCellWith FIELD
+RefactoringAction 1444382441076 TestCell.java RENAME testLiveCellWith=>void testLiveCellWithNeighborsShould FIELD
+RefactoringAction 1444382442589 TestCell.java RENAME testLiveCellWithNeighborsShould=>void testLiveCellWithNeighborsShouldLive() METHOD
+EditAction 1444382505733 TestCell.java 500 2 5 1

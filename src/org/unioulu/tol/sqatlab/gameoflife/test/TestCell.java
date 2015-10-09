@@ -13,14 +13,18 @@ public class TestCell {
 		//arrange
 		Cell cell = new Cell("Alive");
 		
-		
 		cell.nextIteration();
-		
-		
 		
 		assertEquals("Dead", cell.getState());
 	}
 	
 	
+	@Test
+	public void testLiveCellWithNeighborsShouldLive(){
+		
+		Cell cell = new Cell("Alive");
+		
+		fail("not implemented");
+	}
 
 }
