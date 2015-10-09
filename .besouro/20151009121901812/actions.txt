@@ -13,3 +13,4 @@ RefactoringAction 1444382430060 TestCell.java RENAME test=>void testLiveCellWith
 RefactoringAction 1444382441076 TestCell.java RENAME testLiveCellWith=>void testLiveCellWithNeighborsShould FIELD
 RefactoringAction 1444382442589 TestCell.java RENAME testLiveCellWithNeighborsShould=>void testLiveCellWithNeighborsShouldLive() METHOD
 EditAction 1444382505733 TestCell.java 500 2 5 1
+EditAction 1444382538189 TestCell.java 542 2 6 2

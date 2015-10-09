@@ -24,7 +24,9 @@ public class TestCell {
 		
 		Cell cell = new Cell("Alive");
 		
-		fail("not implemented");
+		cell.nextIteration();
+		
+		assertEquals("Alive", cell.getState());
 	}
 
 }
