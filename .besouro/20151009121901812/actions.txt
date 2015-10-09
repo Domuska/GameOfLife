@@ -73,3 +73,15 @@ RefactoringAction 1444383608072 TestGrid.java RENAME testTwoCellsOnGrid()=>void 
 RefactoringAction 1444383611587 TestGrid.java RENAME testTwoCellsOnGridW()=>void testTwoCellsOnGridWithOneNeighbor() METHOD
 RefactoringAction 1444383613102 TestGrid.java RENAME testTwoCellsOnGridWithOneNeighbor()=>void testTwoCellsOnGridWithOneNeighborBoth() METHOD
 EditAction 1444383712916 TestGrid.java 735 2 11 3
+UnitTestCaseAction 1444383718114 TestGrid.java FAIL
+UnitTestSessionAction 1444383718116 TestGrid FAIL
+RefactoringAction 1444384555132 Grid.java ADD Set<Cell> cells FIELD
+RefactoringAction 1444384558645 Grid.java RENAME Grid(int)=>int size FIELD
+RefactoringAction 1444384573707 Grid.java RENAME Grid(int)=>int size FIELD
+RefactoringAction 1444384578738 Grid.java ADD import java.util.HashSet IMPORT
+RefactoringAction 1444384582225 Grid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444384673104 Cell.java ADD int x FIELD
+RefactoringAction 1444384675617 Cell.java ADD int y FIELD
+RefactoringAction 1444384683922 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444384683923 Cell.java ADD boolean equals(Object) METHOD
+EditAction 1444384725998 Cell.java 912 6 15 0
