@@ -13,7 +13,7 @@ public class TestCell {
 		//arrange
 		Cell cell = new Cell("Alive");
 		
-		cell.nextIteration();
+		cell.nextIteration(0);
 		
 		assertEquals("Dead", cell.getState());
 	}
