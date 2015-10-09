@@ -184,3 +184,6 @@ RefactoringAction 1444387062816 TestGrid.java RENAME testFourCells=>void testFou
 RefactoringAction 1444387067332 TestGrid.java RENAME testFourCellsOnGridWith=>void testFourCellsOnGridWithThreeNeighbors() METHOD
 RefactoringAction 1444387073862 TestGrid.java RENAME testFourCellsOnGridWithThreeNeighbors()=>void testFourCellsOnGridWithThreeNeighborsAll() METHOD
 EditAction 1444387162895 TestGrid.java 1175 3 20 3
+UnitTestCaseAction 1444387167745 TestGrid.java OK
+UnitTestSessionAction 1444387167746 TestGrid OK
+EditAction 1444387180983 TestGrid.java 1173 3 21 4

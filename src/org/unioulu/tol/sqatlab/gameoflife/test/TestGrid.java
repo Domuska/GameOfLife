@@ -27,7 +27,7 @@ public class TestGrid {
 		grid.addCell(cellTwo);
 		
 		assertEquals(1, grid.getNumberOfCellsNeighbors(cellOne));
-		//assertEquals(1, grid.getNumberOfCellsNeighbors(cellTwo));
+		assertEquals(1, grid.getNumberOfCellsNeighbors(cellTwo));
 	}
 	
 	@Test
