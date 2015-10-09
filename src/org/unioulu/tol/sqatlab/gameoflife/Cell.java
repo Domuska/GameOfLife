@@ -8,7 +8,7 @@ public class Cell {
 		this.liveliness = liveliness;
 	}
 
-	public void nextIteration() {
+	public void nextIteration(int liveNeighbors) {
 		
 		
 	}
