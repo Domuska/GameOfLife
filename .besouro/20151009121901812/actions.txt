@@ -43,3 +43,4 @@ RefactoringAction 1444383372940 Grid.java RENAME Grid()=>Grid(int) METHOD
 RefactoringAction 1444383381167 Grid.java ADD void addCell(int, int) METHOD
 RefactoringAction 1444383386620 Grid.java ADD Object getCellsNeighbors(int, int) METHOD
 EditAction 1444383389556 Grid.java 289 3 1 0
+EditAction 1444383419197 TestGrid.java 403 1 4 1
