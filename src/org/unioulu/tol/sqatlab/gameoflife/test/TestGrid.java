@@ -13,7 +13,7 @@ public class TestGrid {
 		Cell cell = new Cell(0, 0);
 		grid.addCell(cell);
 		
-		assertEquals(0, grid.getCellsNeighbors(0,0));
+		assertEquals(0, grid.getCellsNeighbors(cell));
 	}
 	
 	@Test
