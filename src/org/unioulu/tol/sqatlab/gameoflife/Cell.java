@@ -30,13 +30,14 @@ public class Cell {
 			return false;
 		return true;
 	}
-
+	
 	public Cell(String liveliness){		
 		this.liveliness = liveliness;
 	}
 	
 	public Cell(int x, int y){
-		
+		this.x = x;
+		this.y = y;
 		
 	}
 
@@ -56,4 +57,13 @@ public class Cell {
 		
 		return liveliness;
 	}
+	
+	public int getX(){
+		return x;
+	}
+	
+	public int getY(){
+		return y;		
+	}
+	
 }

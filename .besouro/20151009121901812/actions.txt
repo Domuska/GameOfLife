@@ -93,3 +93,8 @@ CompilationAction 1444384814861 TestGrid.java
 EditAction 1444384818305 Grid.java 330 3 2 0
 CompilationAction 1444384822542 TestGrid.java
 EditAction 1444384832667 TestGrid.java 742 2 11 3
+UnitTestCaseAction 1444384837750 TestGrid.java FAIL
+UnitTestSessionAction 1444384837751 TestGrid FAIL
+RefactoringAction 1444384949571 Cell.java ADD void getX() METHOD
+RefactoringAction 1444384963659 Cell.java ADD int getY() METHOD
+EditAction 1444385024466 Cell.java 1016 8 19 0
