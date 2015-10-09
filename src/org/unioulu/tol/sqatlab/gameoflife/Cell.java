@@ -11,7 +11,7 @@ public class Cell {
 		this.y = y;
 	}
 	
-	public Cell(String liveliness){		
+	/*public Cell(String liveliness){		
 		this.liveliness = liveliness;
 	}
 	
@@ -19,7 +19,7 @@ public class Cell {
 		this.x = x;
 		this.y = y;
 		
-	}
+	}*/
 
 	public void nextIteration(int liveNeighbors) {
 		

@@ -208,3 +208,8 @@ CompilationAction 1444387892571 TestCell.java
 EditAction 1444387898531 Cell.java 1322 9 22 0
 EditAction 1444388005766 TestGrid.java 1575 4 30 4
 EditAction 1444388009014 GameOfLife.java 80 0 0 0
+UnitTestCaseAction 1444388013700 TestGrid.java OK
+UnitTestSessionAction 1444388013701 TestGrid OK
+RefactoringAction 1444388030630 Cell.java RENAME <initializer /1>=>Cell(String) METHOD
+RefactoringAction 1444388034670 Cell.java RENAME <initializer /1>=>void nextIteration(int) METHOD
+EditAction 1444388061182 Cell.java 1326 7 19 0
