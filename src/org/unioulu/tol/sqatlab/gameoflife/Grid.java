@@ -23,15 +23,22 @@ public class Grid {
 		
 		int numberOfNeighbors = 0;
 		
-		for(int i = -1; i <= 1 ; i++){
+		for(int dx = -1; dx <= 1 ; dx++){
 			
-			Cell neighbor = new Cell(cell.getX(), cell.getY() +1);
-			
-			if(cells.contains(neighbor)){
+			for(int dy = -1; dy <= 1; dy++){
 				
-				numberOfNeighbors ++;
+				Cell neighbor = new Cell(cell.getX()+dx, cell.getY() +dy);
+				
+				if(cells.contains(neighbor)){
+					
+					numberOfNeighbors ++;
+				}
 			}
+			
+			
 		}
+		
+		
 		
 		return numberOfNeighbors;
 	}
